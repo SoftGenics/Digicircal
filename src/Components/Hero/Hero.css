@@ -1,0 +1,15 @@
+.hero{
+    padding: 0 !important;
+    margin-top: 8.5rem;
+}
+.hero img {
+    height: auto;
+}
+@media(max-width: 600px){
+    .hero{
+        margin-top: 9.5rem;
+    } 
+    .hero img {
+        height: 35vh;
+    }
+}

@@ -1,0 +1,91 @@
+.review {
+    margin:0;
+    margin-top: 15rem;
+  
+}
+.review h2 {
+   
+    width: 100%;
+ 
+    text-align: center;
+
+}
+.review h2::before{
+    display: inline-block;
+    margin: 0 20px 8px 0px;
+    height: 3px;
+    content: " ";
+    
+    text-shadow: none;
+    background-color: #0d0508;
+    width: 140px;
+}
+.review h2::after{
+    display: inline-block;
+    margin: 0 10px 8px 0;
+    height: 3px;
+    content: " ";
+    text-shadow: none;
+    background-color: #0e060a;
+    width: 140px;
+}
+.review h2 span {
+    color: #be975b;
+    
+}
+.review .card {
+    
+    box-shadow: 0 10px 10px 0 rgb(0 0 0 / 10%);
+    padding: 1rem;
+    width: 95%;
+    height: 50vh;
+    
+}
+.review .time {
+    
+    margin-top: -1rem !important;
+}
+.review .card .card-title {
+   
+}
+.review .card .fa-user {
+    background-color: blue;
+    color: #fff;
+    height: 28px;
+    width: 28px;
+    padding: 5px 5px;
+    border-radius: 50%;
+   
+}
+.review .card img {
+
+    
+}
+.rating img{
+ width: 25px;
+ height: 25px;
+}
+.review .swiper {
+    padding: 3rem;
+}
+.react-multi-carousel-item .react-multi-carousel-item--active div {
+    padding: 0.4rem !important;
+}
+.react-multi-carousel-list  {
+    width: 100% !important;
+}
+@media(max-width:768px) {
+    .review h2::before{
+        display: none;
+  
+    }
+    .review h2::after{
+        display: none;
+ 
+    }
+}
+@media (max-width: 468px) {
+    .review .card {
+        width: 100%;
+    }
+}

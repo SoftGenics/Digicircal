@@ -1,0 +1,30 @@
+.header {
+    padding: auto;
+}
+.header  .navbar-nav .nav-link {
+    color: #fff !important;
+}
+.header  .navbar-nav .nav-link span:hover{
+    color: rgb(32, 215, 19);
+}
+
+.header .navbar-nav .nav-link .fa-facebook-square{
+    color: #fff;
+}
+.header .navbar-nav .nav-link .fa-facebook-square:hover {
+    color: rgb(134, 134, 255);
+}
+.header .navbar-nav .nav-link .fa-instagram:hover{
+    color: rgb(248, 68, 128);
+}
+.header .navbar-nav .nav-link .fa-linkedin:hover{
+ color: rgb(165, 165, 255);
+}
+.header .navbar-nav .nav-link  .fa-youtube:hover{
+    color: red;
+}
+@media (max-width:455px){
+    .header  .navbar-nav .nav-link {
+        font-size: 10px !important;
+    }
+}

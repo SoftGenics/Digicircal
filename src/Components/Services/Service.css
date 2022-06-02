@@ -1,0 +1,361 @@
+.bg-container .spices-masala .container {
+    overflow: hidden;
+  }
+  .spices-masala
+  {
+    margin-top:0rem;
+    
+  }
+  .spices-masala  h1 {
+      margin-top:3rem;
+      text-align: center;
+      margin-bottom: 2rem;
+      color: aliceblue;
+      text-decoration: underline crimson;
+   
+  }
+  /*.spices-masala  h1::after {
+      content: "";
+      position: relative;
+      width: 21%;
+      height: 4px;
+      background-color: red;
+      left: 37rem;
+      top:0x;
+      bottom: -10px;
+      display: block;
+  }
+  */
+  .spices-masala  h2 {
+      text-align: center;
+      color: red;
+      font-weight: 800;
+      font-size: 80px;
+      text-shadow: 6px -1px 2px #CECCCA;
+  }
+  .spices-masala .card 
+  {
+  margin-top:5%;
+    -webkit-transition: all .2s ease-out;
+  -moz-transition: all .2s ease-out;
+  -ms-transition: all .2s ease-out;
+  -o-transition: all .2s ease-out;
+   transition: all .2s ease-out;
+  border-radius:15px;
+  border:none;
+    background-color:white;
+    
+  }
+  
+  
+  .spices-masala .btn 
+  {
+  opacity:0;  
+  position:absolute;
+  left:50%;
+  top: 110%;
+   transform: translate(-50%, -50%);
+   box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0);
+  -webkit-transition: all .2s ease-out;
+  -moz-transition: all .2s ease-out;
+  -ms-transition: all .2s ease-out;
+  -o-transition: all .2s ease-out;
+   transition: all .2s ease-out;
+  border-radius: 10px;
+  padding:0.8rem 1.7rem;
+  border:none;
+  font-weight:bold;
+  }
+  
+  .spices-masala .card:hover .btn
+  {
+  opacity:1;
+  top: 100%;
+   box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.25);
+  }
+  
+  .spices-masala .card:hover
+  {
+  box-shadow: 0 4px 18px 0 rgba(0,0,0,0.7);
+  
+  }
+  
+  .spices-masala h5
+  {
+  text-align: center;
+  position: absolute;
+  left:50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.8rem;
+  text-shadow: 1px 1px 2px black;
+  -webkit-transition: all .2s ease-out;
+  -moz-transition: all .2s ease-out;
+  -ms-transition: all .2s ease-out;
+  -o-transition: all .2s ease-out;
+   transition: all .2s ease-out;
+  }
+  
+  .spices-masala .card:hover h5
+  {
+  opacity:1;
+    font-size: 3rem;
+    color: rgb(248, 45, 45) !important;
+  }
+  
+  .spices-masala .btn:hover 
+  {
+  color:white;
+  border:none;
+  }
+  
+  .spices-masala div.col-12:nth-child(1) > .card:nth-child(1) > .btn:nth-child(3):hover
+  {
+  background-color:Navy;
+  }
+  
+  .spices-masala div.col-12:nth-child(2) > .card:nth-child(1) > .btn:nth-child(3):hover
+  {
+    background-color:SeaGreen;
+  }
+  
+  .spices-masala div.col-12:nth-child(3) > .card:nth-child(1) > .btn:nth-child(3):hover
+  {
+    background-color: PaleVioletRed;
+  }
+  
+  .spices-masala .card img
+  {
+  filter:blur(0px);
+    -webkit-transition: all .2s ease-out;
+  -moz-transition: all .2s ease-out;
+  -ms-transition: all .2s ease-out;
+  -o-transition: all .2s ease-out;
+   transition: all .2s ease-out;
+  border-radius:15px;
+  height: 40vh;
+  }
+  
+  .spices-masala .card:hover img
+  {
+  filter:blur(3px);
+  }
+  .service-2 {
+    margin:0;
+    padding:0;
+    width:100%;
+    height:100%;
+    font-family:sans-serif;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+  }
+  
+  .testimotionals {
+  width:350px;
+   display:inline-block;
+    margin-left:50px;
+    margin-top:50px
+    
+  }
+  
+  
+  .testimotionals .card {
+    
+    position:relative;
+    overflow:hidden;
+    width:350px;
+    margin:0 auto;
+    padding:20px;
+    box-sizing:border-box;
+    text-align:center;
+    
+  }
+  .testimotionals .card .layer {
+    z-index:1;
+    position:absolute;
+    top:calc(100% - 2px);
+    height:100%;
+    width:100%;
+    left:0;
+    background:linear-gradient(to left , orange, tomato);
+    transition:0.5s;
+    
+  }
+  .testimotionals .card .layer1 {
+    z-index:1;
+    position:absolute;
+    top:calc(100% - 2px);
+    height:100%;
+    width:100%;
+    left:0;
+    background:linear-gradient(to left , rgb(97, 167, 247), rgb(60, 47, 234));
+    transition:0.5s;
+    
+  }
+  .testimotionals .card .layer2 {
+    z-index:1;
+    position:absolute;
+    top:calc(100% - 2px);
+    height:100%;
+    width:100%;
+    left:0;
+    background:linear-gradient(to left , rgb(92, 252, 77), rgb(16, 161, 3));
+    transition:0.5s;
+    
+  }
+  .testimotionals .card .layer3 {
+    z-index:1;
+    position:absolute;
+    top:calc(100% - 2px);
+    height:100%;
+    width:100%;
+    left:0;
+    background:linear-gradient(to left , rgb(255, 103, 98), rgb(246, 54, 54));
+    transition:0.5s;
+    
+  }
+  .testimotionals .card .layer4 {
+    z-index:1;
+    position:absolute;
+    top:calc(100% - 2px);
+    height:100%;
+    width:100%;
+    left:0;
+    background:linear-gradient(to left , rgb(255, 98, 124), rgb(223, 28, 135));
+    transition:0.5s;
+    
+  }
+  .testimotionals .card .layer8 {
+    z-index:1;
+    position:absolute;
+    top:calc(100% - 2px);
+    height:100%;
+    width:100%;
+    left:0;
+    background:linear-gradient(to left , rgb(255, 250, 98), rgb(223, 207, 28));
+    transition:0.5s;
+    
+  }
+  .testimotionals .card .layer7 {
+    z-index:1;
+    position:absolute;
+    top:calc(100% - 2px);
+    height:100%;
+    width:100%;
+    left:0;
+    background:linear-gradient(to left , rgb(255, 98, 98), rgb(223, 28, 28));
+    transition:0.5s;
+    
+  }
+  .testimotionals .card .layer5 {
+    z-index:1;
+    position:absolute;
+    top:calc(100% - 2px);
+    height:100%;
+    width:100%;
+    left:0;
+    background:linear-gradient(to left , rgb(251, 150, 155), rgb(253, 123, 145));
+    transition:0.5s;
+    
+  }
+  .testimotionals .card .layer7 {
+    z-index:1;
+    position:absolute;
+    top:calc(100% - 2px);
+    height:100%;
+    width:100%;
+    left:0;
+    background:linear-gradient(to left , rgb(255, 200, 61),rgb(255, 181, 10));
+    transition:0.5s;
+    
+  }
+  .testimotionals .card .content {
+    z-index:2; 
+    position:relative;
+  }
+  
+  .testimotionals .card:hover  .layer{
+    top:0;
+  }
+  .testimotionals .card:hover  .layer1{
+    top:0;
+  }
+  .testimotionals .card:hover  .layer2{
+    top:0;
+  }
+  .testimotionals .card:hover  .layer3{
+    top:0;
+  }
+  .testimotionals .card:hover  .layer4{
+    top:0;
+  }
+  .testimotionals .card:hover  .layer5{
+    top:0;
+  }
+  .testimotionals .card:hover  .layer6{
+    top:0;
+  }
+  .testimotionals .card:hover  .layer7{
+    top:0;
+  }
+  .testimotionals .card:hover  .layer8{
+    top:0;
+  }
+  
+  .testimotionals .card .content p {
+    font-size:14px;
+    line-height:24px;
+    color:#fff;
+    
+  }
+  .testimotionals .card .content .image {
+    width:100px; height:100px;
+    margin:0 auto;
+    border-radius:50%;
+    overflow:hidden;
+    border: 4px solid white;
+    
+    
+  }
+  .testimotionals .card .content h2 {
+    text-transform: uppercase;
+    margin-top: 1rem;
+    font-size: 25px;
+  }
+  .testimotionals .card .content .image img {
+    height:100%;
+    width:100%;
+    
+  }
+  .testimotionals .card .content a {
+    color: purple;
+    font-weight: 700;
+    text-decoration: none;
+    margin-top: 1rem;
+  }
+  
+  .testimotionals .card .content a i:hover{
+    margin-left: 0.4rem;
+  }
+  
+  .testimotionals .card .conte nt .details h2 {
+  font-size:18px;
+  color:white;
+  }
+  .testimotionals .card .content .details h2 span {
+  font-size:18px;
+  color:purple;
+    transition:0.5s;
+  }
+  .testimotionals .card:hover .content .details h2 span {
+    color:white;
+    position:relative
+  }
+  @media(max-width: 768px){
+    .testimotionals {
+      margin-left: 0;
+    }
+  }
+  

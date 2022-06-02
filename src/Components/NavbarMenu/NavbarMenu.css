@@ -1,0 +1,136 @@
+.navbarmenu {
+    margin-top: 2.9rem;
+    background-color: #ffffff;
+    padding-right: 1.6rem;
+    padding-left: 1.5rem;
+    
+    
+}
+.brand-logo {
+    width: 185px;
+    height: 100px;
+    transition: all 0.4s ease 0s;
+}
+
+.navbarmenu .navbar-nav .nav-link{
+    padding-right: 2rem !important;
+    font-weight: 500;
+    color: rgb(50, 77, 253) !important;
+    
+}
+.navbarmenu .navbar-toggler {
+    border:  none !important;
+  }
+  .navbarmenu .navbar-toggler:focus{
+    outline: none !important;
+    border: none !important;
+    box-shadow: none !important;
+  }
+.navbarmenu .navbar-nav .nav-link:hover{
+ color: rgb(10, 192, 10) !important;
+    transition: all 0.4s ease 0s;
+}
+
+.navbarmenu .navbar-nav .dropdown-toggle {
+    color:   rgb(50, 77, 253) !important;
+    font-weight: 500;
+    text-align: left;
+    
+}
+.navbarmenu .navbar-nav .dropdown-toggle:hover {
+    color: rgb(10, 192, 10) !important;
+    
+}
+.navbarmenu .navbar-nav .dropdown-toggle  {
+    border: none !important;
+}
+.navbarmenu .navbar-nav .dropdown-toggle:focus {
+    box-shadow: none !important;
+}
+
+.navbarmenu .navbar-nav .dropdown-menu{
+    
+    border-top: 2px solid  rgb(50, 77, 253);
+    box-shadow: 0px 0px 4px rgb(186, 184, 184);
+   
+}
+.navbarmenu .navbar-nav .dropdown-menu .dropdown-item {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+.navbarmenu .navbar-nav .dropdown-menu .dropdown-item button{
+    background: none !important;
+    color:  rgb(50, 77, 253);
+    font-weight: 500;
+    padding: 0;
+}
+.navbarmenu .navbar-nav .dropdown-menu .dropdown-item .subdropdown{
+    color: black !important;
+}
+.navbarmenu .navbar-nav .dropdown-menu .dropdown-item::after{
+    margin-top: 10px;
+}
+.navbarmenu .navbar-nav .nav-link .btn-call{
+    background-color: rgb(47, 112, 242);
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-weight: 700;
+    line-height: 45px;
+    border: 2px solid #fff;
+    border-radius: 30px;
+    box-shadow: 0 -3px rgba(0, 0, 0, 0.1) inset;
+    padding: 0 42px;
+    position: relative;
+    transition: opacity 0.3s linear 0s;
+
+}
+.navbarmenu .navbar-nav .nav-link .btn-call:hover{
+    background-color: rgba(82,188,4,255);
+}
+.navbarmenu .navbar-nav .nav-link .btn-call span{
+    left: 0;
+    position: relative;
+    transition: all 0.2s ease-out 0s;
+}
+.navbarmenu .navbar-nav .nav-link .btn-call i {
+    width: 18px;
+    position: absolute;
+    right: 30px;
+    top: 50%;
+    margin-top: -9px;
+    line-height: 18px;
+    opacity: 0;
+    transition: all 0.2s ease-out 0s;
+}
+.navbarmenu .navbar-nav .nav-link .btn-call:hover span{
+    left: -18px;
+}
+.navbarmenu .navbar-nav .nav-link .btn-call:hover i {
+    opacity: 1;
+    right: 24px;
+}
+
+
+    
+
+@media(max-width: 768px){
+    .navbarmenu .navbar-nav .nav-link{
+        padding-right:auto !important;
+    }
+    .navbarmenu .navbar-nav .dropdown-toggle{
+        padding: 0;
+    }
+}
+@media(max-width: 412px){
+    .navbarmenu .brand-logo {
+        width:165px;
+        height: 80px;
+    }
+}
+@media(max-width: 280px){
+    .navbarmenu .brand-logo {
+        width:150px;
+    }
+}
